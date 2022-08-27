@@ -1,0 +1,1 @@
+tr '[:punct:]' '\t' | tr -s '[:blank:]' '\n' | sort | uniq -c
